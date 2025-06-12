@@ -30,3 +30,14 @@ Key Features:
    Save graph as PNG image.
 
 
+Task3: ESP32 Voltage Monitor
+
+What It Does
+   This project uses an ESP32 and ADS1115 (16-bit ADC) to read analog voltage from a potentiometer, and displays it in a Python GUI.
+
+Key Features:
+
+   Reads 0–3.3V analog input using ADS1115 (channel A0)
+   Sends data from ESP32 over serial (only after START command)
+   GUI plots real-time graph, shows voltage with progress bar
+   Allows saving graph and exporting data as CSV
